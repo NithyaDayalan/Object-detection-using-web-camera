@@ -3,6 +3,13 @@
 ### AIM :
 To perform real-time object detection using a trained YOLO v4 model through your laptop camera.
 
+### ALGORITHM :
+1. Load YOLO model and class files.
+2. Start webcam capture.
+3. Convert frame to blob and feed to model.
+4. Get detections and draw boxes.
+5. Show output until ‘q’ is pressed.
+
 ### PROGRAM :
 ```
 import cv2, numpy as np, os
